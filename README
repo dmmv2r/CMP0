@@ -1,8 +1,17 @@
 Name: Donovan McDonough
 Date: 9/20/21
 
+Program currently seg faults after taking in inputs.
+
 In order to compile, please run command "make".
+
+Run "make clean" to remove executable and all object files.
+
 To start program, issue command "./P0 file" where file is an optional file. If file is not given, program will read from keyboard input one word at a time until the word "end" is entered.
+
+Version control accomplished using Git/GitHub. Project can be found under the username "dmmv2r" and the project name is "CMP0".
+
+Code for tree traversals taken from "geeksforgeeks.org".
 
 WARNING: Program gives file argument proper extension of ".fl2021". If using file input, only enter the name of the file and not the extension of ".fl2021".
 

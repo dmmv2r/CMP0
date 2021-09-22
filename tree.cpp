@@ -27,15 +27,45 @@ void buildTree(Node *root, string word, int index) {
    return;
 }
 
-void printInorder() {
+void printInorder(Node* node) {
    cout << "in printInorder" << endl;
+
+   if(node == NULL) {
+      return;
+   }
+
+   printInorder(node->left);
+
+   cout << node->x << endl;
+
+   printInorder(node->right);
 }
 
-void printPreorder() {
+void printPreorder(Node* node) {
    cout << "in printPreorder" << endl;
+
+   if(node == NULL) {
+      return;
+   }
+
+   cout << node->x << endl;
+
+   printPreorder(node->left);
+
+   printPreorder(node->right);
 }
 
-void printPostorder() {
+void printPostorder(Node* node) {
    cout << "in printPostorder" << endl;
+
+   if(node == NULL) {
+      return;
+   }
+
+   printPostorder(node->left);
+
+   printPostorder(node->right);
+
+   cout << node->x << endl;
 }
 

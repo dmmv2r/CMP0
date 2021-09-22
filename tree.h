@@ -7,8 +7,8 @@
 using namespace std;
 
 void buildTree(Node *root, string word, int index);
-void printInorder();
-void printPreorder();
-void printPostorder();
+void printInorder(Node* node);
+void printPreorder(Node* node);
+void printPostorder(Node* node);
 
 #endif

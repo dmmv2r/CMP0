@@ -68,9 +68,9 @@ int main(int argc, char* argv[]) {
       buildTree(root, words[i], index);
    }
 
-   printPreorder();
-   printInorder();
-   printPostorder();
+   printPreorder(root);
+   printInorder(root);
+   printPostorder(root);
 
    cout << "bye bye" << endl;
    return 0;
