@@ -1,1 +1,9 @@
-Read me
+Name: Donovan McDonough
+Date: 9/20/21
+
+In order to compile, please run command "make".
+To start program, issue command "./P0 file" where file is an optional file. If file is not given, program will read from keyboard input one word at a time until the word "end" is entered.
+
+WARNING: Program gives file argument proper extension of ".fl2021". If using file input, only enter the name of the file and not the extension of ".fl2021".
+
+NOTE: Project is incomplete and does not fully work.
